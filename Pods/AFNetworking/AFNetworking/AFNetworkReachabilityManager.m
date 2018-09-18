@@ -170,8 +170,11 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
     return self;
 }
 
-- (instancetype)init NS_UNAVAILABLE
+- (instancetype)init
 {
+    @throw [NSException exceptionWithName:NSGenericException
+                                   reason:@"`-init` unavailable. Use `-initWithReachability:` instead"
+                                 userInfo:nil];
     return nil;
 }
 
@@ -216,7 +219,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
         }
 
     };
-    
+
     SCNetworkReachabilityContext context = {0, (__bridge void *)callback, AFNetworkReachabilityRetainCallback, AFNetworkReachabilityReleaseCallback, NULL};
     SCNetworkReachabilitySetCallback(self.networkReachability, AFNetworkReachabilityCallback, &context);
     SCNetworkReachabilityScheduleWithRunLoop(self.networkReachability, CFRunLoopGetMain(), kCFRunLoopCommonModes);

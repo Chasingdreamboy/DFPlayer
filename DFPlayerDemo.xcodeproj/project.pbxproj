@@ -21,6 +21,7 @@
 		06B33BBE1F725830003A559C /* YourDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B33BAB1F72582F003A559C /* YourDataModel.m */; };
 		06E3FE911F8E07E90063577B /* 阿悄-死皮赖脸.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 06E3FE901F8E07E90063577B /* 阿悄-死皮赖脸.lrc */; };
 		06E3FE951F8E2DC30063577B /* 周渝民-记得我爱你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 06E3FE941F8E2DC30063577B /* 周渝民-记得我爱你.lrc */; };
+		2328A6AFE6E57BE2CE80A624 /* libPods-DFPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A5873E9102FC5A2090A0CF /* libPods-DFPlayerDemo.a */; };
 		F9037BF61FB482320002F98C /* ihoudf-dfplayer.lrc in Resources */ = {isa = PBXBuildFile; fileRef = F9037BF51FB482320002F98C /* ihoudf-dfplayer.lrc */; };
 		F944936B1FA1CD6D006C605F /* 陈冠希-战争.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F944936A1FA1CD6C006C605F /* 陈冠希-战争.mp3 */; };
 		F944936F1FA1D544006C605F /* default_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F944936E1FA1D544006C605F /* default_bg.jpg */; };
@@ -37,7 +38,6 @@
 		F944939A1FA24423006C605F /* DFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F94493851FA24423006C605F /* DFPlayer.m */; };
 		F944939B1FA24423006C605F /* DFPlayerControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F94493871FA24423006C605F /* DFPlayerControlManager.m */; };
 		F944939C1FA24423006C605F /* DFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F94493891FA24423006C605F /* DFPlayerModel.m */; };
-		F944939D1FA24423006C605F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F944938C1FA24423006C605F /* AFNetworkReachabilityManager.m */; };
 		F944939E1FA24423006C605F /* DFPlayerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F944938E1FA24423006C605F /* DFPlayerFileManager.m */; };
 		F944939F1FA24423006C605F /* DFPlayerLyricsTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = F94493901FA24423006C605F /* DFPlayerLyricsTableview.m */; };
 		F94493A01FA24423006C605F /* DFPlayerRemoteApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = F94493921FA24423006C605F /* DFPlayerRemoteApplication.m */; };
@@ -100,6 +100,9 @@
 		06B33BAB1F72582F003A559C /* YourDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YourDataModel.m; sourceTree = "<group>"; };
 		06E3FE901F8E07E90063577B /* 阿悄-死皮赖脸.lrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "阿悄-死皮赖脸.lrc"; sourceTree = "<group>"; };
 		06E3FE941F8E2DC30063577B /* 周渝民-记得我爱你.lrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "周渝民-记得我爱你.lrc"; sourceTree = "<group>"; };
+		454491510F9A306BD116D47E /* Pods-DFPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFPlayerDemo/Pods-DFPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		56A5873E9102FC5A2090A0CF /* libPods-DFPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B015E3063305BAB08C3ED0 /* Pods-DFPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFPlayerDemo/Pods-DFPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F9037BF51FB482320002F98C /* ihoudf-dfplayer.lrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ihoudf-dfplayer.lrc"; sourceTree = "<group>"; };
 		F944936A1FA1CD6C006C605F /* 陈冠希-战争.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈冠希-战争.mp3"; sourceTree = "<group>"; };
 		F944936E1FA1D544006C605F /* default_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_bg.jpg; sourceTree = "<group>"; };
@@ -119,8 +122,6 @@
 		F94493871FA24423006C605F /* DFPlayerControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerControlManager.m; sourceTree = "<group>"; };
 		F94493881FA24423006C605F /* DFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerModel.h; sourceTree = "<group>"; };
 		F94493891FA24423006C605F /* DFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerModel.m; sourceTree = "<group>"; };
-		F944938B1FA24423006C605F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		F944938C1FA24423006C605F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		F944938D1FA24423006C605F /* DFPlayerFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerFileManager.h; sourceTree = "<group>"; };
 		F944938E1FA24423006C605F /* DFPlayerFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerFileManager.m; sourceTree = "<group>"; };
 		F944938F1FA24423006C605F /* DFPlayerLyricsTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerLyricsTableview.h; sourceTree = "<group>"; };
@@ -153,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2328A6AFE6E57BE2CE80A624 /* libPods-DFPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +182,8 @@
 				06B33B4B1F725814003A559C /* DFPlayerDemoTests */,
 				06B33B561F725814003A559C /* DFPlayerDemoUITests */,
 				06B33B301F725814003A559C /* Products */,
+				074B2DB36FB56F8D672BBEB4 /* Pods */,
+				AFDE3B6CC7325D1247B7945C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,6 +279,23 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		074B2DB36FB56F8D672BBEB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B015E3063305BAB08C3ED0 /* Pods-DFPlayerDemo.debug.xcconfig */,
+				454491510F9A306BD116D47E /* Pods-DFPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AFDE3B6CC7325D1247B7945C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56A5873E9102FC5A2090A0CF /* libPods-DFPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F94493821FA24423006C605F /* DFPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,8 +314,6 @@
 		F944938A1FA24423006C605F /* supplement */ = {
 			isa = PBXGroup;
 			children = (
-				F944938B1FA24423006C605F /* AFNetworkReachabilityManager.h */,
-				F944938C1FA24423006C605F /* AFNetworkReachabilityManager.m */,
 				F944938D1FA24423006C605F /* DFPlayerFileManager.h */,
 				F944938E1FA24423006C605F /* DFPlayerFileManager.m */,
 				F944938F1FA24423006C605F /* DFPlayerLyricsTableview.h */,
@@ -353,6 +372,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06B33B5C1F725814003A559C /* Build configuration list for PBXNativeTarget "DFPlayerDemo" */;
 			buildPhases = (
+				231CA462284FBEE6C62D3173 /* [CP] Check Pods Manifest.lock */,
 				06B33B2B1F725814003A559C /* Sources */,
 				06B33B2C1F725814003A559C /* Frameworks */,
 				06B33B2D1F725814003A559C /* Resources */,
@@ -413,7 +433,7 @@
 				TargetAttributes = {
 					06B33B2E1F725814003A559C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3YCJES5329;
+						DevelopmentTeam = Q73S6C967P;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -506,6 +526,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		231CA462284FBEE6C62D3173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06B33B2B1F725814003A559C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -525,7 +566,6 @@
 				06B33BAF1F725830003A559C /* NSObject+Alert.m in Sources */,
 				F94493A11FA24423006C605F /* DFPlayerRequestManager.m in Sources */,
 				F954784B1F88D07A00D85D46 /* DFAudioViewController.m in Sources */,
-				F944939D1FA24423006C605F /* AFNetworkReachabilityManager.m in Sources */,
 				F94493A31FA24423006C605F /* DFPlayerTool.m in Sources */,
 				F954784E1F88D15400D85D46 /* DFCacheViewController.m in Sources */,
 			);
@@ -688,9 +728,10 @@
 		};
 		06B33B5D1F725814003A559C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B015E3063305BAB08C3ED0 /* Pods-DFPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3YCJES5329;
+				DEVELOPMENT_TEAM = Q73S6C967P;
 				INFOPLIST_FILE = DFPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -701,9 +742,10 @@
 		};
 		06B33B5E1F725814003A559C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454491510F9A306BD116D47E /* Pods-DFPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3YCJES5329;
+				DEVELOPMENT_TEAM = Q73S6C967P;
 				INFOPLIST_FILE = DFPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
